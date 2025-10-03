@@ -1,0 +1,57 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.card-header {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  color: white;
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  border: none;
+  border-radius: 25px;
+  padding: 8px 24px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #0056b3, #004085);
+  transform: scale(1.05);
+}
+
+.table th {
+  background-color: #f8f9fa;
+  border-top: none;
+}
+
+.badge {
+  font-size: 0.75em;
+}
+
+.chart-container {
+  position: relative;
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+  
+  .chart-container {
+    height: 250px;
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "suppliers": [
+    {
+      "id": "SUP001",
+      "name": "TechGlobal Electronics Ltd",
+      "country": "CN",
+      "city": "Shenzhen",
+      "category": "electronics",
+      "verified": true,
+      "rating": 4.8,
+      "certifications": ["ISO9001", "CE", "FCC", "RoHS"],
+      "contact": {
+        "email": "sales@techglobal.cn",
+        "phone": "+86-755-8888-9999",
+        "website": "www.techglobal.cn"
+      },
+      "products": [
+        {
+          "name": "Smartphone Components",
+          "category": "electronics",
+          "minOrderQuantity": 1000,
+          "priceRange": "$2.50-$15.00",
+          "leadTime": "15-25 days"
+        },
+        {
+          "name": "LED Displays",
+          "category": "electronics",
+          "minOrderQuantity": 500,
+          "priceRange": "$25.00-$200.00",
+          "leadTime": "20-30 days"
+        }
+      ],
+      "paymentTerms": ["T/T", "L/C", "PayPal"],
+      "tradeCapacity": {
+        "totalEmployees": 250,
+        "annualRevenue": "$15M",
+        "exportPercentage": 85
+      }
+    },
+    {
+      "id": "SUP002",
+      "name": "EuroTextile Manufacturing",
+      "country": "IT",
+      "city": "Milano",
+      "category": "textiles",
+      "verified": true,
+      "rating": 4.6,
+      "certifications": ["OEKO-TEX", "GOTS", "ISO14001"],
+      "contact": {
+        "email": "info@eurotextile.it",
+        "phone": "+39-02-1234-5678",
+        "website": "www.eurotextile.it"
+      },
+      "products": [
+        {
+          "name": "Organic Cotton Fabrics",
+          "category": "textiles",
+          "minOrderQuantity": 2000,
+          "priceRange": "$8.00-$25.00",
+          "leadTime": "30-45 days"
+        },
+        {
+          "name": "Luxury Silk Scarves",
+          "category": "textiles",
+          "minOrderQuantity": 100,
+          "priceRange": "$45.00-$120.00",
+          "leadTime": "25-35 days"
+        }
+      ],
+      "paymentTerms": ["T/T", "L/C"],
+      "tradeCapacity": {
+        "totalEmployees": 120,
+        "annualRevenue": "$8M",
+        "exportPercentage": 60
+      }
+    },
+    {
+      "id": "SUP003",
+      "name": "Brasil Coffee Exporters",
+      "country": "BR",
+      "city": "São Paulo",
+      "category": "food",
+      "verified": true,
+      "rating": 4.9,
+      "certifications": ["Fair Trade", "Organic", "Rainforest Alliance"],
+      "contact": {
+        "email": "export@brasilcoffee.com.br",
+        "phone": "+55-11-9999-8888",
+        "website": "www.brasilcoffee.com.br"
+      },
+      "products": [
+        {
+          "name": "Arabica Coffee Beans",
+          "category": "food",
+          "minOrderQuantity": 10000,
+          "priceRange": "$4.50-$8.00",
+          "leadTime": "20-30 days"
+        },
+        {
+          "name": "Premium Roasted Coffee",
+          "category": "food",
+          "minOrderQuantity": 1000,
+          "priceRange": "$12.00-$25.00",
+          "leadTime": "15-25 days"
+        }
+      ],
+      "paymentTerms": ["T/T", "L/C", "Cash Against Documents"],
+      "tradeCapacity": {
+        "totalEmployees": 85,
+        "annualRevenue": "$12M",
+        "exportPercentage": 90
+      }
+    },
+    {
+      "id": "SUP004",
+      "name": "Industrial Machinery Japan",
+      "country": "JP",
+      "city": "Osaka",
+      "category": "machinery",
+      "verified": true,
+      "rating": 4.7,
+      "certifications": ["ISO9001", "JIS", "CE"],
+      "contact": {
+        "email": "sales@machinery-jp.co.jp",
+        "phone": "+81-6-1234-5678",
+        "website": "www.machinery-jp.co.jp"
+      },
+      "products": [
+        {
+          "name": "CNC Machines",
+          "category": "machinery",
+          "minOrderQuantity": 1,
+          "priceRange": "$50,000-$200,000",
+          "leadTime": "60-90 days"
+        },
+        {
+          "name": "Precision Tools",
+          "category": "machinery",
+          "minOrderQuantity": 50,
+          "priceRange": "$100-$2,000",
+          "leadTime": "30-45 days"
+        }
+      ],
+      "paymentTerms": ["T/T", "L/C"],
+      "tradeCapacity": {
+        "totalEmployees": 180,
+        "annualRevenue": "$25M",
+        "exportPercentage": 70
+      }
+    },
+    {
+      "id": "SUP005",
+      "name": "ChemCorp Industries",
+      "country": "DE",
+      "city": "Frankfurt",
+      "category": "chemicals",
+      "verified": false,
+      "rating": 4.2,
+      "certifications": ["REACH", "ISO14001"],
+      "contact": {
+        "email": "business@chemcorp.de",
+        "phone": "+49-69-1234-5678",
+        "website": "www.chemcorp.de"
+      },
+      "products": [
+        {
+          "name": "Industrial Solvents",
+          "category": "chemicals",
+          "minOrderQuantity": 5000,
+          "priceRange": "$2.00-$8.00",
+          "leadTime": "25-40 days"
+        },
+        {
+          "name": "Specialty Polymers",
+          "category": "chemicals",
+          "minOrderQuantity": 1000,
+          "priceRange": "$15.00-$50.00",
+          "leadTime": "35-50 days"
+        }
+      ],
+      "paymentTerms": ["T/T", "L/C"],
+      "tradeCapacity": {
+        "totalEmployees": 300,
+        "annualRevenue": "$40M",
+        "exportPercentage": 55
+      }
+    }
+  ],
+  "categories": [
+    "electronics",
+    "textiles",
+    "food",
+    "machinery", 
+    "chemicals",
+    "automotive",
+    "pharmaceuticals",
+    "commodities"
+  ],
+  "certifications": [
+    "ISO9001",
+    "ISO14001",
+    "CE",
+    "FCC",
+    "RoHS",
+    "OEKO-TEX",
+    "GOTS",
+    "Fair Trade",
+    "Organic",
+    "Rainforest Alliance",
+    "JIS",
+    "REACH"
+  ]
+}

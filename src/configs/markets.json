@@ -1,0 +1,109 @@
+{
+  "markets": [
+    {
+      "id": "US",
+      "name": "Estados Unidos",
+      "currency": "USD",
+      "timezone": "America/New_York",
+      "tradingHours": {
+        "open": "09:30",
+        "close": "16:00"
+      },
+      "regulations": {
+        "importLicense": "required",
+        "customsDeclaration": "mandatory",
+        "inspectionRate": 15
+      },
+      "popularProducts": [
+        "electronics",
+        "textiles",
+        "machinery",
+        "chemicals"
+      ],
+      "averageTariff": 7.4,
+      "tradeVolume": 4200000000
+    },
+    {
+      "id": "EU",
+      "name": "Unión Europea",
+      "currency": "EUR",
+      "timezone": "Europe/Brussels",
+      "tradingHours": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "regulations": {
+        "importLicense": "conditional",
+        "customsDeclaration": "mandatory",
+        "inspectionRate": 12
+      },
+      "popularProducts": [
+        "automotive",
+        "pharmaceuticals",
+        "food",
+        "machinery"
+      ],
+      "averageTariff": 5.1,
+      "tradeVolume": 3800000000
+    },
+    {
+      "id": "CN",
+      "name": "China",
+      "currency": "CNY",
+      "timezone": "Asia/Shanghai",
+      "tradingHours": {
+        "open": "09:00",
+        "close": "15:00"
+      },
+      "regulations": {
+        "importLicense": "required",
+        "customsDeclaration": "mandatory",
+        "inspectionRate": 25
+      },
+      "popularProducts": [
+        "electronics",
+        "textiles",
+        "toys",
+        "furniture"
+      ],
+      "averageTariff": 9.8,
+      "tradeVolume": 5600000000
+    },
+    {
+      "id": "JP",
+      "name": "Japón",
+      "currency": "JPY",
+      "timezone": "Asia/Tokyo",
+      "tradingHours": {
+        "open": "09:00",
+        "close": "15:00"
+      },
+      "regulations": {
+        "importLicense": "conditional",
+        "customsDeclaration": "mandatory",
+        "inspectionRate": 8
+      },
+      "popularProducts": [
+        "electronics",
+        "automotive",
+        "machinery",
+        "chemicals"
+      ],
+      "averageTariff": 4.3,
+      "tradeVolume": 1200000000
+    }
+  ],
+  "exchangeRates": {
+    "lastUpdated": "2024-03-15T10:30:00Z",
+    "baseCurrency": "USD",
+    "rates": {
+      "EUR": 0.92,
+      "CNY": 7.24,
+      "JPY": 149.50,
+      "BRL": 4.95,
+      "MXN": 17.15,
+      "CAD": 1.35,
+      "GBP": 0.79
+    }
+  }
+}
